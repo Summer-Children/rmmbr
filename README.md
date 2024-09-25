@@ -1,117 +1,49 @@
 # rmmbr
+"rmmbr" (pronounced "remember") is a PWA (progressive web app), which allows users to upload photos/videos/texts and share them with other users. They can also collaborate with other users by creating shared memories by uploading their media and having a real-time chat within the app. The app also provides countdown features for future events. This app was made by 4 developer students and 5 UI/UX designer students. 
 
-## Quick start guide
+# Feature
+- Upload photos/videos and share them with others
+- Display Countdown for the future events
+- Create shared memories with other users by having the shared platform
+- Have a real-time chat with other users within the shared memories page  
 
-1. **Make sure you have `node` installed on your computer**
+# Tech Stack
+- **Front end**: HTML, CSS (Tailwind CSS), TypeScript
+- **Back end**: Supabase
 
-2. **Install dependencies**
+# Major Contribution
+- Created complex and responsive UI for the Home Page
+- Developed filtering functionality for the created memories
+- Formed selection functionality of stickers for created memories
+- Turn the app into PWA
 
-    ```shell
-    npm install
-    ```
+# Screenshot
+- **Desktop Screen Size**
+<img src="https://github.com/user-attachments/assets/60c0f844-2d19-467d-8dcf-9e4cc58455e0" alt="Screenshot 2024-09-25 at 2 16 14 PM" width="45%" style="margin-right: 30px;" />
+<img src="https://github.com/user-attachments/assets/7d2a1f59-5946-49b4-bdfe-3da74a352410" alt="Screenshot 2024-09-25 at 2 18 19 PM" width="45%" />
 
-3. **Run dev server**
+<img src="https://github.com/user-attachments/assets/20b7e877-b480-4f13-94f3-0039a4581735" alt="Screenshot 2024-09-25 at 2 19 47 PM" width="45%" style="margin-right: 30px;" />
+<img src="https://github.com/user-attachments/assets/03de1c30-8c18-4a9d-a774-8b46e1e1b7ff" alt="Screenshot 2024-09-25 at 2 21 02 PM" width="45%" />
 
-    ```shell
-    npm run dev
-    ```
 
-The app is now running at `https://localhost:5173/`
 
-Open the `rmmbr` directory in your code editor of choice and start developing. Save your changes and the browser will update in real time!
+- **Mobile Screen Size**
+<img src="https://github.com/user-attachments/assets/55a1cd64-a2ac-4541-be16-9c0aadd76bbd" alt="Screenshot 2024-09-25 at 2 34 41 PM" width="30%" style="margin-right:30px;" />
+<img src="https://github.com/user-attachments/assets/dbe07ee1-9519-4e49-9b8d-d2c3812667ab" alt="Screenshot 2024-09-25 at 2 34 24 PM" width="30%" style="margin-right:30px;" />
+<img src="https://github.com/user-attachments/assets/676f7e02-3389-4f96-808a-3600b6b69f63" alt="Screenshot 2024-09-25 at 2 34 12 PM" width="30%" style="margin-right:30px;" />
 
-## Build
+<img src="https://github.com/user-attachments/assets/af8a2339-79d7-42c7-b23f-0e03ad60977e" alt="Screenshot 2024-09-25 at 2 33 57 PM" width="30%" style="margin-right:30px;" />
+<img src="https://github.com/user-attachments/assets/d553aca0-5089-464f-acd9-5b50522d9640" alt="Screenshot 2024-09-25 at 2 33 45 PM" width="30%" />
 
-1.  **Install dependencies using yarn**
 
-    ```shell
-    npm install
-    ```
 
-2.  **Build the app**
 
-    ```shell
-    npm run build
-    ```
 
-    After this step, the built app is located inside the `dist` directory in a project root.
 
-3.  **Launch the app**
 
-    ```shell
-    npm run preview
-    ```
 
-    3.1 You can combine step 2 and 3 by running:
 
-    ```shell
-    npm run prod
-    ```
+# Demo Video
+(Please click the link below to view a YouTube video.)
+- https://youtu.be/NJBXqI3VaWo?si=MUYx0_frEtYGVOI3
 
-4.  **Visit the app**
-
-    Your app is now running at `https://localhost:4173/`
-
-    Open it in your browser and see how the app will look like when you deploy it!
-
-## Commands
-
-You should run the following commands as `npm run <command>` (e.g. `npm run test:unit`)
-
--   `dev` - run a server in development mode
--   `build` - build the app for production
--   `build:github` - build the app for github pages
--   `preview` - run a server in production mode (you have to `build` the app first)
--   `prod` - run a server in production mode (combines `build` and `preview` commands)
--   `test:unit` - run unit tests
--   `lint:check` - check linting rules
--   `types:check` - check for all TypeScript types in the project to be correct
-
-## Dev Stack
-
-These are the main libraries/dependencies you should be comfortable with to properly work on this project.
-
--   **TypeScript**
--   **Vite**
--   **Vitest**
--   **Tailwind**
--   **Supabase**
-
-## Github Workflows
-
-There're several github workflows that are run depending on some actions:
-
-### ESlint
-
-This workflow checks for linting rules in the project files
-
-_Runs on:_
-
--   PR to `master`
--   Push to `master`
-
-### TypeScript
-
-This workflow checks for typescript types in the project to be valid
-
-_Runs on:_
-
--   PR to `master`
--   Push to `master`
-
-### Vitest
-
-This workflow runs unit tests in the project and makes sure that all tests are passing
-
-_Runs on:_
-
--   PR to `master`
--   Push to `master`
-
-### Deploy
-
-This workflow deploys the app to [`https://rasulomaroff.github.io/rmmbr/`](https://rasulomaroff.github.io/rmmbr/)
-
-_Runs on:_
-
--   Push to `master`
