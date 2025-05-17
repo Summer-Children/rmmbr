@@ -1,4 +1,5 @@
 <img width="792" alt="Screenshot 2025-05-17 at 4 54 59 PM" src="https://github.com/user-attachments/assets/7c6b3985-7352-4f43-b9ee-157984a784a1" />
+
 # rmmbr
 "rmmbr" (pronounced "remember") is a PWA (progressive web app), which allows users to upload photos/videos/texts and share them with other users. They can also collaborate with other users by creating shared memories by uploading their media and having a real-time chat within the app. The app also provides countdown features for future events. This app was made by 4 developer students and 5 UI/UX designer students. 
 
